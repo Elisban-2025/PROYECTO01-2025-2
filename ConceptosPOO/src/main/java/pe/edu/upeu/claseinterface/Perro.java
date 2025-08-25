@@ -1,0 +1,15 @@
+package pe.edu.upeu.claseinterface;
+
+public class Perro implements Animal{
+
+    @Override
+    public void emitirSonido() {
+        System.out.println("guauuuu guauuuu.....");
+    }
+
+    @Override
+    public void dormir() {
+        System.out.println("zzzz--zzz......zz.");
+    }
+
+}
